@@ -1,0 +1,3 @@
+from atividades import *
+
+retornaMediaAltura()
