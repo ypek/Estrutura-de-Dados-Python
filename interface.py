@@ -28,6 +28,7 @@ while True:
     (6) - Sair
     ==========================================================
     (7) - Função de Retorno Media de Altura
+    (8) - Função Mensagem Secreta
     
     Digite a opção desejada: """)
     opcao = int(input())
@@ -43,6 +44,8 @@ while True:
         retornaSomaNegativo()
     elif opcao == 7:
         retornaMediaAltura()
+    elif opcao == 8:
+        traduzir()
     elif opcao == 6:
         break
     else:
