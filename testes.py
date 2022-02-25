@@ -1,3 +1,3 @@
 from atividades import *
 
-retornaMediaAltura()
+traduzir()

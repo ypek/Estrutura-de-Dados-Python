@@ -87,9 +87,15 @@ def retornaMediaAltura():
     media_altura = sum(altura) / len(altura)
     print("A média das alturas é: ", media_altura)
 
+def traduzir():
+    palavraSecreta = [2,15,13,0,4,9,1]
+    letras = ["''","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","w","x","y","z"]
+    palavra = []
+    for i in range(0,7):
+        palavra.append(letras[palavraSecreta[i]])
+    print("A palavra traduzida é: ", palavra)
 
-
-   
+    
 
 
 
