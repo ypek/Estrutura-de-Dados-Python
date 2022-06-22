@@ -37,9 +37,7 @@ for i,dado_linha in enumerate(arq): #enumerate() retorna um objeto que é uma tu
 
 
 elemento = tabela_periodica[inputDados]
-print("==========================================================")
-print('seu Símbolo é:',elemento['simbolo'])
-print('O Elemento tem o nome de',elemento['nome'])
+print(f"{'='*60}\nSeu Símbolo é: {elemento['simbolo']}\nO Elemento tem o nome de {elemento['nome']}")
 
 if elemento['estado'] == 'l':
     print('O Elemento é Líquido')
@@ -48,9 +46,10 @@ elif elemento['estado'] == 'g':
 elif elemento['estado'] == 's':
     print('O Elemento é Solido')
 
-print('O número atomico do elemento é',elemento['numeroAtomico'])
-print('O elemento está na linha',elemento['linha'])
-print('O elemento está na coluna',elemento['coluna'])
+print(f"""O número atomico do elemento é {elemento['numeroAtomico']}
+O elemento está na linha {elemento['linha']}
+O elemento está na coluna {elemento['coluna']}
+""")
 
 
 
